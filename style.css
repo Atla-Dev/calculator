@@ -20,7 +20,7 @@
  }
 
 .calculator form button {
-   border: 0;
+   border: 1px solid #495462 ;
    outline: 0;
    width: 60px;
    height: 60px;
@@ -28,7 +28,7 @@
    background: transparent;
    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px, 5px, 15px rgba(0, 0, 0, 0.2);
    font-size: 20px;
-   color: #fff;
+   color: #16b18f;
    cursor: pointer;
    margin: 10px;
 }
@@ -45,6 +45,10 @@ form .display input {
    flex: 1;
    font-size: 25px;
    box-shadow: none;
+   background-color: #5a6779;
+   border: 1px solid #626e80;
+   border-radius: 5px;
+   color:#0dcea4
 }
 
 form button.double-button {

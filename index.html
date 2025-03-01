@@ -17,25 +17,25 @@
                         <input type="text" id="mainDisplay" name="display" class="screen" readonly>
                     </div>
                     <div>
-                        <button id="clearButton">C</button>
-                        <button id="deleteButton" type="button">Del</button>
-                        <button id="decimalButton">.</button>
-                        <button id="divideButton" type="button">/</button> <br>
-                        <button id="sevenButton" value="7" onclick="addChar("7");">7</button>
-                        <button id="eightButton" type="button">8</button>
-                        <button id="nineButton" type="button">9</button>
-                        <button id="multiplyButton" type="button">*</button><br>
-                        <button id="fourButton" type="button">4</button>
-                        <button id="fiveButton" type="button">5</button>
-                        <button id="sixButton" type="button">6</button>
-                        <button id="subtractButton" type="button">-</button><br>
-                        <button id="oneButton" type="button">1</button>
-                        <button id="twoButton" type="button">2</button>
-                        <button id="threeButton" type="button">3</button>
-                        <button id="additionButton" type="button">+</button><br>
-                        <button id="doubleZeroButton" type="button">00</button>
-                        <button id="zeroButton" type="button">0</button>
-                        <button id="equalsButton" class="double-button" type="button">=</button>
+                        <button id="clearButton" type="button" value="c" onclick="clearDisplay()">C</button>
+                        <button id="deleteButton" type="button" value="" onclick="deleteChar()">Del</button>
+                        <button id="decimalButton" type="button" value="." onclick="addChar('.')">.</button>
+                        <button id="divideButton" type="button" value="/" onclick="addChar('/')">/</button> <br>
+                        <button id="sevenButton" type="button" value="7" onclick="addChar('7')">7</button>
+                        <button id="eightButton" type="button" value="8" onclick="addChar('8')">8</button>
+                        <button id="nineButton" type="button" value="9" onclick="addChar('9')">9</button>
+                        <button id="multiplyButton" type="button" value="*" onclick="addChar('*')">*</button><br>
+                        <button id="fourButton" type="button" value="4" onclick="addChar('4')">4</button>
+                        <button id="fiveButton" type="button" value="5" onclick="addChar('5')"">5</button>
+                        <button id="sixButton" type="button" value="6" onclick="addChar('6')">6</button>
+                        <button id="subtractButton" type="button" value="-" onclick="addChar('-')">-</button><br>
+                        <button id="oneButton" type="button" value="1" onclick="addChar('1')">1</button>
+                        <button id="twoButton" type="button" value="2" onclick="addChar('2')">2</button>
+                        <button id="threeButton" type="button" value="3" onclick="addChar('3')">3</button>
+                        <button id="additionButton" type="button" value="+" onclick="addChar('+')">+</button><br>
+                        <button id="doubleZeroButton" type="button" value="00" onclick="addChar('00')">00</button>
+                        <button id="zeroButton" type="button" value="0" onclick="addChar('0')">0</button>
+                        <button id="equalsButton" class="double-button" value="=" type="button" onclick="solve()">=</button>
                     </div>
                 </form>
             </div>

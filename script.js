@@ -44,6 +44,23 @@ function addChar(val) {
 }
 
 
+function solve() {
+    let x = document.getElementById("mainDisplay").value
+    let y = eval(x)
+    document.getElementById("mainDisplay").value = y
+}
+
+function clearDisplay() {
+    document.getElementById("mainDisplay").value = ""
+}
+
+function deleteChar() {
+    let x = document.getElementById("mainDisplay").value
+    let y = x.slice(0, x.length - 1)
+    document.getElementById("mainDisplay").value = y
+}
+
+
 
 
 
